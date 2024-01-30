@@ -9,13 +9,14 @@ import Marketing from './pages/Marketing'
 import Consulting from './pages/Consulting'
 import Design from './pages/Design'
 import Development from './pages/Development'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
   return (
-    
+
     <>
-      
+
       <BrowserRouter>
 
         <Navbar />
@@ -33,6 +34,7 @@ function App() {
 
         </Routes>
 
+        <Footer />
       </BrowserRouter>
 
     </>
